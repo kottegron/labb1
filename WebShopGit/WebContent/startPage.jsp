@@ -36,6 +36,7 @@
    String message = "";
    session.setAttribute( "message", message);
    
+  DB.User user =new DB.User();
   
    %>
    
