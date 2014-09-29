@@ -35,7 +35,11 @@
    //provide user interaction when trying to login
    String message = "";
    session.setAttribute( "message", message);
+   
+  
    %>
+   
+  
 
  </body>
 </html>
