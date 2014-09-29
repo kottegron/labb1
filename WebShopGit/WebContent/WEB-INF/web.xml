@@ -3,7 +3,7 @@
   <display-name>WebShop</display-name>
   <welcome-file-list>
     
-   <welcome-file>/view/startPage.jsp</welcome-file>
+   <welcome-file>startPage.jsp</welcome-file>
     <!--   <welcome-file>shop.jsp</welcome-file>-->
 
   </welcome-file-list>
