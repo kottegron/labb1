@@ -37,6 +37,7 @@
    String message = "";
    session.setAttribute( "message", message);
    
+<<<<<<< HEAD
    
    //after new user buttons is clicked this happens 
    if(newN!=null && !newN.equals(""))
@@ -47,6 +48,9 @@
 	 NUH.createUser(newN,newP);
 	  //System.out.println(newN);
    }
+=======
+  DB.User user =new DB.User();
+>>>>>>> origin/master
   
    
    %>
