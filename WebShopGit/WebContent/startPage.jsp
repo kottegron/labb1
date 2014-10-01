@@ -2,6 +2,7 @@
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
   "http://www.w3.org/TR/html4/loose.dtd">
+  <%@ page import="BO.NewUserHandler" %>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -36,8 +37,23 @@
    String message = "";
    session.setAttribute( "message", message);
    
+   
+   //after new user buttons is clicked this happens 
+   if(newN!=null && !newN.equals(""))
+   {
+	 //System.out.println(newN);
+	 NewUserHandler NUH = new NewUserHandler();
+	 // System.out.println(session.getAttribute( "newusername" ));
+	 NUH.createUser(newN,newP);
+	  //System.out.println(newN);
+   }
   
+   
    %>
+   
+    
+ 
+   
    
   
 

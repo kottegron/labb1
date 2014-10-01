@@ -16,11 +16,7 @@ Enter Password <INPUT TYPE="password" NAME=newpassword SIZE=20><BR>
 
 <P><INPUT TYPE=SUBMIT>
 </FORM>
-  <% 
- NewUserHandler NUH = new NewUserHandler();
-   System.out.println(session.getAttribute( "newusername" ));
-   NUH.create();
-   %>
+ 
 </body>
 </html>
 
